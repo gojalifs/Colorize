@@ -1,0 +1,82 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "bb816534467c5d23e4d6a8b2a2f0245f",
+    "entities": [
+      {
+        "tableName": "ishihara",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `imgUrl` TEXT NOT NULL, `imgPath` TEXT, `answerTrue` TEXT NOT NULL, `answerFalse` TEXT NOT NULL, `protan` TEXT, `deutan` TEXT, `otherNumber` TEXT, `unreadable` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imgUrl",
+            "columnName": "imgUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imgPath",
+            "columnName": "imgPath",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "answerTrue",
+            "columnName": "answerTrue",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "answerFalse",
+            "columnName": "answerFalse",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "protan",
+            "columnName": "protan",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "deutan",
+            "columnName": "deutan",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "otherNumber",
+            "columnName": "otherNumber",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "unreadable",
+            "columnName": "unreadable",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'bb816534467c5d23e4d6a8b2a2f0245f')"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ishihara_test">Tes Ishihara</string>
+    <string name="ishihara_test_head">Ini adalah awal dari tes ishihara. Tes Ishihara adalah salah satu dari sekian banyak tes buta warna di dunia. Shinobu Ishihara, MD, (wafat tahun 1963) adalah seorang dokter spesialis mata angkatan darat di Tokyo, Jepang. Beliau juga merupakan ketua departemen oftalmologi di Universitas Kekaisaran Tokyo. Minat penelitian Dr. Ishihara meliputi penglihatan isokromatik dan miopia.</string>
+    <string name="ishihara_sub_head">Dalam tes ini, Anda harus memilih jawaban yang tepat untuk lulus tes. Jika Anda gagal memilih jawaban yang tepat untuk setiap pertanyaan, Anda dapat mengulang tes.</string>
+    <string name="ishihara_advice">Jika hasilnya tidak kunjung membaik, Anda dapat mempertimbangkan untuk berkonsultasi dengan dokter.</string>
+    <string name="start">MULAI</string>
+    <string name="download_data">UNDUH DATA</string>
+    <string name="your_grade_is">Nilai kamu adalah</string>
+    <string name="grade_advice_not_good">Nilai Anda tidak 100%, kami sarankan Anda melakukan tes ulang. Jika hasilnya tetap sama, Anda dapat mempertimbangkan untuk memeriksakan diri ke dokter untuk mendapatkan hasil tes yang tepat.</string>
+    <string name="grade_passed">Anda dinyatakan lulus. Selamat. Anda tidak memiliki masalah buta warna.</string>
+    <string name="back_to_home">KEMBALI KE HOME</string>
+</resources>

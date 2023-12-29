@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">Colorize - Blind Test</string>
+    <string name="ishihara_test">Ishihara Test</string>
+    <string name="colorize" translatable="false">Colorize</string>
+    <string name="ishihara_test_head">"This is the beginning of the ishihara test. The Ishihara test is one of many blind tests in the world. Shinobu Ishihara, MD, (d. 1963) was an army opthamologist in Tokyo, Japan. He was also the chairman of the ophthalmology department at the Imperial University of Tokyo. Dr. Ishihara’s research interests included isochromatic vision and myopia. "</string>
+    <string name="ishihara_sub_head">"In this test, you need to choose the right answer to pass the test. If you failed to choose the right answer of each question, you can retake the test. "</string>
+    <string name="ishihara_advice">"If the result persists, you may consider consulting with a doctor. "</string>
+    <string name="start">START</string>
+    <string name="download_data">DOWNLOAD DATA</string>
+    <string name="your_grade_is">"Your grade is "</string>
+    <string name="grade_advice_not_good">"Your grade is not 100%, we suggest you take a re-test. If the result persists, you may consider going to the doctor to get a precise test result.  "</string>
+    <string name="grade_passed">"You passed the result. Congrats. You don't have any color blind issues. "</string>
+    <string name="back_to_home">BACK TO HOME</string>
+</resources>
